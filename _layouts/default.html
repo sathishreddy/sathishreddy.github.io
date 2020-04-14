@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:sathish.indurthi@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/sathishreddy">github.com/sathishreddy</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include contact-section.html %}
+  
+  {% include footer.html %}
+
+  <!-- jQuery -->
+  <script src="{{ site.baseurl }}/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="{{ site.baseurl }}/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="{{ site.baseurl }}/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="{{ site.baseurl }}/assets/plugins/shuffle/shuffle.min.js"></script>
+
+  <!-- Main Script -->
+  <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+
+</html>

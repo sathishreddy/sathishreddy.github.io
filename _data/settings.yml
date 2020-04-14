@@ -1,0 +1,251 @@
+#-------------------------------
+# General Site Settings
+
+title: Sathish, Personal website
+#logo: logo.png
+email: sathish.indurthi@gmail.com
+phone: +81 10 4991 0124
+address: Seocho-gu, Seoul, South Korea
+
+menu:
+- {name: About, link: '/about/'}
+- {name: Blog, link: '/blog/'}
+- {name: Portfolio, link: '/portfolio/'}
+- {name: Contact, link: '/contact/'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m, Sathish, <br> Machine Learning Researcher/Engineer <br>
+
+social:
+- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-dribbble", link: "#"}
+- {icon: "ti-twitter", link: "#"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  I am a machine learning researcher with experience in conducting research, and applying ML techniques & algorithm
+  development to solve real world problems.
+
+
+blurb-btn-link: '/about'
+blurb-btn-name: know more
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+## My Team Section
+#team:
+#  - title : "Jack Schenziwe"
+#    image : "assets/images/team/member-1.png"
+#    designation : "Project Manager"
+#
+#  - title : "Julias Carlie"
+#    image : "assets/images/team/member-2.png"
+#    designation : "Web Developer"
+#
+#  - title : "John Doe"
+#    image : "assets/images/team/member-3.png"
+#    designation : "Designer"
+
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Deep Learning/Machine Learning, color: '#fdb157', value: '90%'}
+- {name: Tensorflow, color: '#9473e6', value: '90%'}
+- {name: Research & Development, color: '#9473e6', value: '90%'}
+- {name: Python, color: '#bdecf6', value: '80%'}
+- {name: Android, color: '#ffbcaa', value: '70%'}
+- {name: Scikit-learn, color: '#ffbcaa', value: '60%'}
+- {name: Java, color: '#ffbcaa', value: '60%'}
+- {name: C/C++, color: '#ffbcaa', value: '60%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+- {name: Research Engineer, icon: 'icon-1.png', date: 'May 2011 - Jun 2013', organization: 'TCS Innovation Labs'}
+- {name: Research Engineer, icon: 'icon-2.png', date: 'Jul 2013 - Sep 2016', organization: 'IBM Research'}
+- {name: Senior Research Engineer, icon: 'icon-3.png', date: 'Oct 2016 - Present', organization: 'Samsung Research'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- {name: Masters in Computer Science, date: '2009', organization: 'Indian Institute of Science'}
+- {name: Bachelors in Computer Science, date: '2007', organization: 'Jawaharlal Nehru Technological University'}
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-4.png"
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+
+
+# Portfolio Page
+portfolio-label:
+- {
+    title : "UI/UX Design",
+    type : "design"
+  }
+- {
+    title : "BRANDING",
+    type : "branding"
+  }
+- {
+    title : "ILLUSTRATION",
+    type : "illustration"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+     - type: "design"
+     - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-6.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-8.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-7.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+
+
+#-------------------------------
+# Client Slider Section
+
+#client-slider-items:
+#  - logo: "assets/images/clients-logo/client-logo-1.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-1.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-2.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-3.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-4.png"
+#    url: "#"
+#
+#  - logo: "assets/images/clients-logo/client-logo-5.png"
+#    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: sathish.indurthi@gmail.com
